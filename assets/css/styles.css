@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --font-family: 'Roboto Condensed', sans-serif;
+  /** Font**/
+  /** Black **/
+  --paragraph-color: #933a46;
+  /** Licorice **/
+  --primary-color: #bc157f;
+  /**Glaucou **/
+  --tertiary-color: #98add2;
+  /** Vista Blue**/
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/************* MAIN-STYLING ************************/
+
+body {
+  background-image: url('/assets/images/cassette-tapes.jpg');
+}
+
+h1{
+  font-weight: 500;
+}
+
+h2 {
+  color: var(--paragraph-color);
+  text-align: left;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 15px;
+  text-decoration-line: underline;
+  font-weight: 500;
+}
+
+.container {
+  display: block;
+  justify-items: center;
+  padding: 8rem;
+  margin: 0 auto;
+}
+
+section {
+    background: var(--tertiary-color);
+    padding: 20px;
+    width: 500px;
+    line-height: 1.7em;
+    border-radius: 2em;
+}
+
+strong {
+  font-weight: 500;
+}
+
+/************* END-MAIN-STYLING ****************/
+
+/************* HEADER-SECTION *******************/
+header {
+  background-color: var(--primary-color);
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-right: 2em;
+  text-align: right;
+  text-transform: uppercase;
+  color: #ffff;
+}
+
+.navigation-menu {
+  position: fixed;
+  width: 100%;
+  background-color: var(--primary-color);
+  z-index: 1000;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+/************** MAIN-SECTION **************/
+
+nav {
+    background-color: var(--primary-color);
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+
+nav a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
+  margin: 5px;
+  justify-content: space-evenly;
+  background-color: #ffff;
+  border-radius: 1em;
+}
+
+nav a :hover {
+  background-color: var(--tertiary-color);
+  padding: 3px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1em;
+  margin: 0;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.language-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+
+/************** END-MAIN-SECTION **************/
+
+/************** FOOTER-SECTION **************/
+footer {
+ background-color: var(--primary-color);
+ padding-top: 2em;
+ padding-bottom: 2em;
+ margin: 0;
+}
+
+.bottom-footer {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+small a {
+  color: #ffff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+small a:hover {
+  text-decoration: underline;
+}
+
+/************** END-FOOTER-SECTION **************/
+
+/************* MEDIA-QUERIES ******************/
+/** MOBILE **/
+@media screen and (min-width: 360px) {
+
+}
+
+/** DESKTOP **/
+@media screen and (max-width: 1336px) {
+
+} 
+
+/************* MEDIA-QUERIES ******************/
+  
