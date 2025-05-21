@@ -1,8 +1,8 @@
-##Cv-Resume
+## Cv-Resume
 
-- Single page resume solution. ()
+- Single page resume solution. (https://devbriax.github.io/resume-web-page/)
 
-##Content
+## Content
 
 #Project & Section breakdown
 #Page Structure Layout
@@ -11,13 +11,13 @@
 #Fonts
 #Links
 
-##Project & Section breakdown
+## Project & Section breakdown
 
 - Single page resume
 - Top-section: Details.
 - Main content section being split into different sections.
 
-##Page Structure Layout
+## Page Structure Layout
 
 - Summary 
 - Work - Experience 
@@ -28,28 +28,23 @@
 - Projects 
 - Tool-Set  
 
-##Color Palette
+## Color Palette
 
- --font-family: "Roboto Condensed", sans-serif;
-  /**Black **/
-  --paragraph-color: #933a46;
-  /** Licorice**/
-  --primary-color: #bc157f;
-  /**Glaucou **/
-  --tertiary-color: #98add2;
-  /** Vista Blue**/
+ - Paragraph-color: [#933a46;] /** Licorice**/
+ - Primary-color: [#bc157f;] /**Glaucou **/
+ - Tertiary-color: [#98add2;] /** Vista Blue**/
 
-##Languages
+## Languages
 
 - HTML5
 - CSS3
 
-##Fonts
+## Fonts
 
 - Roboto condensed
 - sans-serif
 
-##Links
+## Links
 
 - https://unsplash.com
 - https://pixabay.com/ 
