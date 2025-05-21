@@ -28,7 +28,7 @@ html {
 /************* MAIN-STYLING ************************/
 
 body {
-  background-image: url('./assets/images/cassette-tapes.jpg');
+  background-image: url('assets/images/cassette-tapes.jpg');
 }
 
 h1{
